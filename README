@@ -1,0 +1,49 @@
+NAME
+
+    WWW::Yahoo::Horoskop - Perl module for the yahoo horoskop german service.
+
+SYNOPSIS
+
+	use WWW::Yahoo::Horoskop;
+	# day horoskop
+	my($newhoroskop) = horoskop('widder','tag');
+
+	# or week horoskop
+	my($newhoroskop) = horoskop('widder','woche');
+
+	# The twelve zodiac signs
+	#
+	# example: english - german (date)
+	#
+	# wassermann: Aquarius – Wassermann(21. Januar – 19. Februar)
+	# fische: Pisces – Fische (20. Februar – 20. März)
+	# widder: Aries – Widder (21. März – 20. April)
+	# stier: Taurus – Stier(21. April – 20. Mai)
+	# zwilling: Gemini – Zwillinge (21. Mai – 21. Juni)
+	# krebs: Cancer – Krebs (22. Juni – 22. Juli)
+	# loewe: Leo – Löwe (23. Juli – 23. August)
+	# jungfrau: Virgo– Jungfrau (24. August – 23. September)
+	# waage: Libra – Waage (24. September – 23. Oktober)
+	# skorpion: Scorpio – Skorpion (24. Oktober – 22. November)
+	# schuetze: Sagittarius – Schütze (23. November – 21. Dezember)
+	# steinbock: Capricorn – Steinbock (22. Dezember – 20. Januar)
+
+DESCRIPTION
+
+WWW::Yahoo::Horoskop - Perl module for the yahoo horoskop german service.
+
+AUTHOR
+
+    Stefan Gipper <stefanos@cpan.org>, http://www.coder-world.de/
+
+COPYRIGHT
+
+	WWW::Yahoo::Horoskop is Copyright (c) 2010 Stefan Gipper
+	All rights reserved.
+
+	This program is free software; you can redistribute
+	it and/or modify it under the same terms as Perl itself.
+
+SEE ALSO
+
+    perl(1)
